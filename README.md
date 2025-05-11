@@ -6,10 +6,10 @@ This contains a summary of the Final Project for DS 201. For more in-depth in-si
 
 ## 📋 Table of Contents
 
-1. [Business Understanding](#business-understanding)
-   a. [Business Objetives](#business-objectives)
-   b. [Data Science Goals](#data-science-goals)
-   c. [Project Plan](#project-plan)
+1. [Business Understanding](#business-understanding) \
+   a. [Business Objetives](#business-objectives) \
+   b. [Data Science Goals](#data-science-goals) \ 
+   c. [Project Plan](#project-plan) \
 3. [Data Understanding](#data-understanding)  
 4. [Data Preparation](#data-preparation)
 5. [Visualizations](#visualizations)
