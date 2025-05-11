@@ -13,7 +13,7 @@ This contains a summary of the Final Project for DS 201. For more in-depth in-si
 3. [Data Understanding](#data-understanding)  
 4. [Data Preparation](#data-preparation)
 5. [Visualizations](#visualizations)
-6. [Conclusions & Future Directions](#conclusions--future)  
+6. [Conclusions & Future Directions](#conclusions-future-directions)  
 7. [Resources](#resources)
 
 ---
