@@ -184,7 +184,7 @@ By addressing these areas, future models can provide more comprehensive and fair
 
 ### Google Colab
 To run our code in googel colab, use this link - 
-[Click Here!](https://colab.research.google.com/github/sneha756/University_admission/blob/main/University_Admissions_Final_Project.ipynb)
+[Click Here!](https://colab.research.google.com/drive/1MVTng6DKpBt4lx7TXojKAautEbRBaRaz#scrollTo=jpX5BQm1ZEm6)
 
 ### Youtube Links
 To watch our tutorials on Youtube, use the links below
