@@ -134,8 +134,7 @@ Here you embed your graphs. Be sure the filenames match what you saved in `/imag
 
 ### Example: Pollution vs. Cost Scatterplot
 
-![Pollution vs. Healthcare Cost](images/graph1.png)
-
+![download](images/ActualvsPredicted.png)
 ### Example: Residuals Distribution
 
 ![Residuals Plot](images/graph2.png)
