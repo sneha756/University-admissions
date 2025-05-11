@@ -192,6 +192,7 @@ To watch our tutorials on Youtube, use the links below
 
 ### IO Page
 Use the link below for out io page
+[IO Page](https://sneha756.github.io/University-admissions/#content)
 
 ---
 
