@@ -13,9 +13,8 @@ This contains a summary of the Final Project for DS 201. For more in-depth in-si
 3. [Data Understanding](#data-understanding)  
 4. [Data Preparation](#data-preparation)
 5. [Visualizations](#visualizations)
-6. [Modeling & Evaluation](#modeling--evaluation)  
-7. [Conclusions & Future Directions](#conclusions--future)  
-8. [Resources](#resources)
+6. [Conclusions & Future Directions](#conclusions--future)  
+7. [Resources](#resources)
 
 ---
 
@@ -107,13 +106,6 @@ Chance of Admit ( ranging from 0 to 1 )
 | Chance of admit	| Chance of getting an admission (ranging from 0 to 1) | Ratio |
 ---
 
-## Modeling & Analysis
-
-Summarize which algorithms or statistical tests you ran, hyperparameters, and how you evaluated performance.
-
----
-
-
 ## Data Preparation
 None of our colunms had any null values so no changes to our dataset was made
 | Variable | Description | Data Type | Null Values? |
@@ -129,25 +121,50 @@ None of our colunms had any null values so no changes to our dataset was made
 ---
 
 ## Visualizations
+1. Scatterplot between GRE Score vs TOEFL Score based on university rating. We hypothesize that higher the university rating, greater are the scores required on both the tests. 
+![download](images/GREvsTOEFL.png)
+As we can see our hypothesis was correct: Higher the rating of the university, higher is the score required to get an admission into them.
 
-Here you embed your graphs. Be sure the filenames match what you saved in `/images`.
+2. Correlation heatmap to see how the variables are correlated to one another.
+![download-1](images/CorrelationHeatmap.png)
+As you can see, almost all our variables have a correlation of around 0.80 or greater which goes to show that all are variables are highly positively correlated to one another. If the CGPA rises, scores on GRE and TOEFL also increase. 
 
-### Example: Pollution vs. Cost Scatterplot
+3. Countplot of University Rating to see which rating has the highest frequency in our dataset
+![download-2](images/UniRating.png)
+As you can see, the rating of 3 has the highest frequency so most of the universities in out dataset lie in the middle, neither too good nor too bad
 
-![download](images/ActualvsPredicted.png)
-### Example: Residuals Distribution
+4. Countplot of research - this is a simple graph just to see the frequency of having a research experience or no. We think that having the research experience would increase the chances of getting into a university.
+![download-3](images/Research.png)
 
-![Residuals Plot](images/graph2.png)
+5. Histogram on CGPA shows us the distribution of the undergraduate CGPA.
+![download-4](images/CGPA.png)
+As you can see that a greater number of applicants in the dataset lie within the 8.0 to 8.5 range.
 
-*(Add as many as you need; GitHub will render these inline.)*
+6. Scatterplot between undergraduate CGPA vs the chance of admission into a graduate program. This is also important to look at as we would think that a higher CGPA in the undergraduate university would increase the chances of getting an admission into a graduate university.
+![download-5](images/CGPAvsAdmit.png)
 
 ---
+## Conclusions & Future Directions
+Using our Linear Regression Model we were able to fit a regression line in our scatterplot which was able to capture our data perfectly and give predicted calues close to the actual values. Below is the chart
+![download-6](images/ActualvsPredicted.png)
 
-## Conclusions & Next Steps
 
-- **Key findings**  
-- **Limitations**  
-- **Future work**  
+The analysis revealed that certain features, notably CGPA and GRE scores, have a strong positive correlation with admission chances. The multiple linear regression model provided a clear understanding of these relationships, while ensemble methods like random forests offered improved predictive accuracy by capturing complex interactions between variables.
+
+Key findings include:
+   a. CGPA: A higher undergraduate GPA consistently increases the likelihood of admission.
+   b. GRE Scores: Strong GRE scores positively influence admission chances, though their impact varies across different university ratings.
+   c. Research Experience: Applicants with research experience have a higher probability of admission, highlighting the value placed on research exposure.
+
+These insights align with existing literature emphasizing the importance of academic performance and research experience in graduate admissions.
+To build upon this study, future research could consider:
+1. Incorporating Non-Academic Factors: Include qualitative data such as personal statements, letters of recommendation, and extracurricular activities to capture a holistic view of the applicant.
+2. Advanced Modeling Techniques: Utilize deep learning models or natural language processing (NLP) to analyze textual data from essays and recommendations, as explored in recent studies .
+3. Bias and Fairness Analysis: Investigate potential biases in the models concerning gender, race, or socioeconomic status, ensuring equitable admission predictions .
+4. Longitudinal Studies: Track admitted students' performance over time to validate the predictive models and adjust them based on real-world outcomes.
+
+By addressing these areas, future models can provide more comprehensive and fair assessments, aiding both institutions and applicants in the admissions process.
+
 
 ---
 
@@ -161,4 +178,3 @@ Here you embed your graphs. Be sure the filenames match what you saved in `/imag
 
 ---
 
-> _This README was generated on YYYY-MM-DD._
