@@ -126,24 +126,26 @@ None of our colunms had any null values so no changes to our dataset was made
 ## Visualizations
 1. Scatterplot between GRE Score vs TOEFL Score based on university rating. We hypothesize that higher the university rating, greater are the scores required on both the tests. 
 ![download](images/GREvsTOEFL.png)
+
 As we can see our hypothesis was correct: Higher the rating of the university, higher is the score required to get an admission into them.
 
-2. Correlation heatmap to see how the variables are correlated to one another.
+3. Correlation heatmap to see how the variables are correlated to one another.
 ![download-1](images/CorrelationHeatmap.png)
+
 As you can see, almost all our variables have a correlation of around 0.80 or greater which goes to show that all are variables are highly positively correlated to one another. If the CGPA rises, scores on GRE and TOEFL also increase. 
 
-3. Countplot of University Rating to see which rating has the highest frequency in our dataset
+4. Countplot of University Rating to see which rating has the highest frequency in our dataset
 ![download-2](images/UniRating.png)
+
 As you can see, the rating of 3 has the highest frequency so most of the universities in out dataset lie in the middle, neither too good nor too bad
 
-4. Countplot of research - this is a simple graph just to see the frequency of having a research experience or no. We think that having the research experience would increase the chances of getting into a university.
+5. Countplot of research - this is a simple graph just to see the frequency of having a research experience or no. We think that having the research experience would increase the chances of getting into a university.
 ![download-3](images/Research.png)
 
-5. Histogram on CGPA shows us the distribution of the undergraduate CGPA.
+6. Histogram on CGPA shows us the distribution of the undergraduate CGPA. As you can see that a greater number of applicants in the dataset lie within the 8.0 to 8.5 range.
 ![download-4](images/CGPA.png)
-As you can see that a greater number of applicants in the dataset lie within the 8.0 to 8.5 range.
 
-6. Scatterplot between undergraduate CGPA vs the chance of admission into a graduate program. This is also important to look at as we would think that a higher CGPA in the undergraduate university would increase the chances of getting an admission into a graduate university.
+7. Scatterplot between undergraduate CGPA vs the chance of admission into a graduate program. This is also important to look at as we would think that a higher CGPA in the undergraduate university would increase the chances of getting an admission into a graduate university.
 ![download-5](images/CGPAvsAdmit.png)
 
 ---
@@ -173,11 +175,18 @@ By addressing these areas, future models can provide more comprehensive and fair
 
 ## Resources
 
-- **View the notebook on Google Colab:**  
-  [Open in Colab](https://colab.research.google.com/drive/YourNotebookID)
+### Google Colab
+To run our code in googel colab, use the link below
+[Open in Colab](https://colab.research.google.com/drive/University_Admissions_Final_Project)
 
-- **Watch the project walkthrough on YouTube:**  
+### Youtube Links
+To watch our tutorials on Youtube, use the links below
   [YouTube Video](https://youtu.be/YourVideoID)
+
+### IO Page
+Use the link below for out io page
+
+For any questions, feel free to contact XXX
 
 ---
 
