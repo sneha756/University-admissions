@@ -97,6 +97,12 @@ Undergraduate GPA ( out of 10 )
 Research Experience ( either 0 or 1 )
 Chance of Admit ( ranging from 0 to 1 )  
 
+| Attribute | Data Type | Description | Nullable |
+| --- | --- | --- | --- |
+| Country | Nominal | Indicates country this data is collected from | No |
+| Years (2000-2019) | Interval | Indicators year this data is collected from | No |
+
+
 | Variable | Description | Data Type |
 | --- | --- | --- |
 | GRE Scores | Scores on the GRE exam out of 340 | Ratio |
