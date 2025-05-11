@@ -15,8 +15,8 @@ This contains a summary of the Final Project for DS 201. For more in-depth in-si
 5. [Visualizations](#visualizations)
 6. [Conclusions & Future Directions](#conclusions--future-directions)  
 7. [Resources](#resources)
-   a. [Google Colab](#google-colab)
-   b. [Youtube](#youtube-links)
+   a. [Google Colab](#google-colab) \
+   b. [Youtube](#youtube-links) \
    c. [IO Page](#io-page)
 
 ---
