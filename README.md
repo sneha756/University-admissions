@@ -124,7 +124,9 @@ None of our colunms had any null values so no changes to our dataset was made
 ---
 
 ## Visualizations
-1. Scatterplot between GRE Score vs TOEFL Score based on university rating. We hypothesize that higher the university rating, greater are the scores required on both the tests. 
+1. Scatterplot between GRE Score vs TOEFL Score based on university rating.
+We hypothesize that higher the university rating, greater are the scores required on both the tests.
+
 ![download-1](images/GREvsTOEFL.png)
 
 As we can see our hypothesis was correct: Higher the rating of the university, higher is the score required to get an admission into them.
