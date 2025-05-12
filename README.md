@@ -179,7 +179,7 @@ To watch our tutorials on Youtube, use the links below
 2. [Presentation Video](https://www.youtube.com/watch?v=JGH4WWXevRc)
 
 ### IO Page
-Use the link below for our io page 
+Use the link for our io page - [IO Page](https://sneha756.github.io/University-admissions/)
 
 ---
 
