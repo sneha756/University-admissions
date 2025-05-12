@@ -11,10 +11,9 @@ This contains a summary of the Final Project for DS 201. For more in-depth in-si
    b. [Data Science Goals](#data-science-goals) \
    c. [Project Plan](#project-plan) 
 3. [Data Understanding](#data-understanding)  
-4. [Data Preparation](#data-preparation)
-5. [Visualizations](#visualizations)
-6. [Conclusions & Future Directions](#conclusions--future-directions)  
-7. [Resources](#resources) \
+4. [Visualizations](#visualizations)
+5. [Conclusions & Future Directions](#conclusions--future-directions)  
+6. [Resources](#resources) \
    a. [Google Colab](#google-colab) \
    b. [Youtube](#youtube-links) \
    c. [IO Page](#io-page)
@@ -97,36 +96,18 @@ Undergraduate GPA ( out of 10 )
 Research Experience ( either 0 or 1 )
 Chance of Admit ( ranging from 0 to 1 )  
 
-| Attribute | Data Type | Description | Nullable |
+| Attribute | Description | Data type | Null values? |
 | --- | --- | --- | --- |
-| Country | Nominal | Indicates country this data is collected from | No |
-| Years (2000-2019) | Interval | Indicators year this data is collected from | No |
+| GRE Scores | Score on the GRE exam out of 340 | Ratio | No |
+| TOEFL Scores | Score on the TOEFL exam out of 120 | Ratio | No |
+| University Rating | A rating of the university out of 5 | Ordinal | No |
+| Statement of purpose | Strength of the statement of purpose out of 5 | Ordinal | No |
+| Letter of recommendation | Strength of the letter of recommendation out of 5 | Ordinal | No |
+| Undergraduate GPA | Undergraduate GPA out of 10 | Ratio | No |
+| Research experience | Research experience (0 = no, 1 = yes) | Nominal | No |
+| Chance of admit | Chance of getting an admission (Ranging from 0 to 1) | Ratio | No |
 
 
-| Variable | Description | Data Type |
-| --- | --- | --- |
-| GRE Scores | Scores on the GRE exam out of 340 | Ratio |
-| TOEFL Scores	| Scores on the TOEFL exam out of 120	| Ratio |
-| University Rating	| A rating of the university out of 5	| Ordinal | 
-| Statement of purpose	| Strength of the statement of purpose out of 5	| Ordinal |
-| Letter of recommendation	| Strength of the letter of recommendation out of 5	| Ordinal |
-| Undergraduate GPA	| Undergraduate GPA out of 10 | Ratio |
-| Research experience	| Research experience (0 = no, 1 = yes) | Nominal |
-| Chance of admit	| Chance of getting an admission (ranging from 0 to 1) | Ratio |
----
-
-## Data Preparation
-None of our colunms had any null values so no changes to our dataset was made
-| Variable | Description | Data Type | Null Values? |
-| --- | --- | --- | --- |
-| GRE Scores | Scores on the GRE exam out of 340 | Ratio | No | 
-| TOEFL Scores	| Scores on the TOEFL exam out of 120	| Ratio | No | 
-| University Rating	| A rating of the university out of 5	| Ordinal | No |  
-| Statement of purpose	| Strength of the statement of purpose out of 5	| Ordinal | No | 
-| Letter of recommendation	| Strength of the letter of recommendation out of 5	| Ordinal | No | 
-| Undergraduate GPA	| Undergraduate GPA out of 10 | Ratio | No | 
-| Research experience	| Research experience (0 = no, 1 = yes) | Nominal | No | 
-| Chance of admit	| Chance of getting an admission (ranging from 0 to 1) | Ratio | No | 
 ---
 
 ## Visualizations
@@ -193,11 +174,12 @@ To view our code in google colab, use this link -
 [Click Here!](https://colab.research.google.com/drive/1MVTng6DKpBt4lx7TXojKAautEbRBaRaz#scrollTo=jpX5BQm1ZEm6)
 
 ### Youtube Links
-To watch our tutorials on Youtube, use the links below
-  [YouTube Video](https://youtu.be/YourVideoID)
+To watch our tutorials on Youtube, use the links below \
+1. [Tutorial Video](https://www.youtube.com/watch?v=RESPZUGnSgU)
+2. [Presentation Video](https://www.youtube.com/watch?v=JGH4WWXevRc)
 
 ### IO Page
-Use the link below for out io page
+Use the link below for our io page 
 
 ---
 
