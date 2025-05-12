@@ -174,7 +174,7 @@ To view our code in google colab, use this link -
 [Click Here!](https://colab.research.google.com/drive/1MVTng6DKpBt4lx7TXojKAautEbRBaRaz#scrollTo=jpX5BQm1ZEm6)
 
 ### Youtube Links
-To watch our tutorials on Youtube, use the links below \
+To watch our tutorials on Youtube, use the links below 
 1. [Tutorial Video](https://www.youtube.com/watch?v=RESPZUGnSgU)
 2. [Presentation Video](https://www.youtube.com/watch?v=JGH4WWXevRc)
 
